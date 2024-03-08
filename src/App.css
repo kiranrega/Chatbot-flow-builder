@@ -1,0 +1,122 @@
+.updatenode__controls {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 4;
+    font-size: 12px;
+  }
+  
+  .updatenode__controls label {
+    display: block;
+  }
+  
+  .updatenode__bglabel {
+    margin-top: 10px;
+  }
+  
+  .updatenode__checkboxwrapper {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .dndflow {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    border: 1px solid #ccc;
+  border-radius: 1px;
+  }
+  
+  .dndflow aside {
+    border-right: 1px solid #eee;
+    padding: 15px 10px;
+    font-size: 12px;
+    background: #fcfcfc;
+  }
+  
+  .dndflow aside .description {
+    margin-bottom: 10px;
+  }
+  
+  .dndflow .dndnode {
+    height: 20px;
+    padding: 4px;
+    border: 1px solid #1a192b;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+  }
+  
+  .dndflow .dndnode.input {
+    border-color: #0041d0;
+  }
+  
+  .dndflow .dndnode.output {
+    border-color: #ff0072;
+  }
+  
+  .dndflow .reactflow-wrapper {
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .dndflow .selectall {
+    margin-top: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .dndflow {
+      flex-direction: row;
+    }
+  
+    .dndflow aside {
+      width: 20%;
+      max-width: 250px;
+    }
+  }
+  
+
+  .custom-node {
+    background-color: #4285F4;  /* Example: A shade of blue */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #2c62c7; /* Slightly darker border */
+    display: flex;             /* Allows for better icon/text alignment */
+    align-items: center;       /* Vertically centers content */
+  }
+  
+  .custom-node h1 {
+    margin: 0;
+    margin-right: 8px;        
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .custom-node div { 
+    background-color: rgba(255, 255, 255, 0.2);  
+    border-radius: 3px;
+  }
+  
+  .react-flow__node-default {
+    text-align: left !important;
+    border: 1px solid #000 !important;
+  }
+
+  .save-button {
+    padding: 10px 15px;
+  font-size: 16px;
+  background-color: #fff;
+  color: blue;
+  border: blue 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+
+  
